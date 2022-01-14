@@ -3,6 +3,7 @@
 /* commone-style */
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(238, 236, 236);
    
 }
 h2{
@@ -12,7 +13,7 @@ h2{
     margin-left: 13%;
 }
 hr{
-    border: 1px solid  #E02C6D;
+    border: 1px solid  #fff;
     width: 82%;
     justify-content: center;
     margin-top: 50px;
@@ -55,7 +56,7 @@ h1{
 }
 .Right-imgs{
     margin-left: 30px;
-    background-color: rgb(226, 226, 226);
+    background-color:#fff;
     border-radius: 50%;
     padding: 15px;
     box-shadow: 30%;
@@ -67,3 +68,87 @@ h1{
    
 }
 /* <!-- Second-part --> */
+h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+span{
+    font-size: 25px;
+}
+.second-title{
+  /* text-align: center; */
+  margin-left: 43%;
+  font-size: 30px;
+}
+.cade-one-img{
+    width: 100%;
+
+}
+.stars{
+    display: flex;
+
+}
+.point{
+    margin-left: 8px;
+    font-size: 20px;
+}
+.fa-star{
+    color: #E02C6D ;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-row-gap: 30px;
+    margin-left: 13%;
+    margin-right: 13%;
+
+}
+.card{
+    background-color:#fff;
+    box-shadow: 10px black;
+    width: 320px; ;
+    height: 470px;
+    padding: 30px;
+    border-radius: 15px;
+ }
+ .sceond-link-button{
+    color: #E02C6D;
+    padding: 10px 40px;
+     border-radius: 15px;
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 25px;
+    
+
+ }
+.sceond-ancor .fa-arrow-right{
+     color:#E02C6D ;
+     
+ }
+.sceond-ancor{
+   text-align: right;
+    margin-right: 13%;
+  
+}
+/* <!-- Last-section --> */
+.last-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.Best Cameras{
+    margin-left: 95%;
+}
+.best-blogging img{
+    width: 404px;
+    height: 270px;
+    margin-left: 13%;
+}
+.join{
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+   
+}
