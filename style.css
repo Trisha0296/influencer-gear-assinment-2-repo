@@ -15,7 +15,7 @@ hr{
     width: 90%;
 }
 .top{
-    margin-top: 60px;
+    margin-top: 60px ;
 }
 h2{
     margin-left: 12%;
@@ -94,17 +94,20 @@ span{
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    margin-right: 10px 10px;
     grid-row-gap: 30px;
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 10%;
+    margin-right: 10%;
 
+}
+.cards .card{
+    padding: 10px 7px;
 }
 .card{
     background-color:#fff;
     width: 320px; ;
     height: 470px;
-    padding: 15px 15px;
+    
     box-shadow:10px 5px rgb(216, 213, 213) ;
     
     border-radius: 15px;
@@ -221,3 +224,5 @@ span{
         display: block;
     }
 }
+
+
