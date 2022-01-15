@@ -11,6 +11,9 @@ body{
     grid-template-columns: repeat(2,1fr);
 
 }
+hr{
+    width: 90%;
+}
 .top{
     margin-top: 60px;
 }
